@@ -1,15 +1,18 @@
 { "articles":
   [{
-    "title": "Article1",
-    "content": "1Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "title": "Sun Salutation - Why Do It?",
+    "paragraph1": "Surya Namaskar is a set of 12 postures, preferably to be done at the time of sunrise. The regular practice of Surya Namaskar improves circulation of blood throughout the body, maintains health, and helps one remain disease-free. There are numerous benefits of Surya Namaskar for the heart, liver, intestine, stomach, chest, throat, legs. From head to toe, every part of the body is greatly benefitted by Surya Namaskar, which is why it is highly recommended by all yoga experts.",
+    "paragraph2": "Postures act as a good link between warm-ups and asanas and can be done any time on an empty stomach. However, morning is considered to be the best time for Surya Namaskar as it revitalizes the body and refreshes the mind, making us ready to take on all tasks of the day. If done in the afternoon, it energizes the body instantly and if done at dusk, it helps you unwind. When done at a fast pace, Surya Namaskar is an excellent cardiovascular workout and a good way to lose weight.",
     "image": "http://www.hopesyoga.com/wp-content/uploads/2013/10/SunSalutationFinal.jpg"
   }, {
-    "title": "Article2",
-    "content": "2Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "title": "Gratefulness",
+    "paragraph1": "Our thinking mind can become so caught up with our hopes, wishes, dreams, desires and expectations that we don't notice all that we already have. A gratitude meditation slows down the forward momentum of the goal-oriented mind, so we can pause to appreciate and savour all the 'good' that is already in our lives.",
+    "paragraph2": "Gratitude is an acknowledgement of all that sustains us, nourishes us, inspires us and touches our heart. Gratitude gives thanks for all our blessings, great and small, and gives appreciation for all those people and things that support and carry us through each day. When gratitude appears, it humbles the mind, gladdens the heart and leads to joy.",
     "image": "http://www.elementhealing.com/wp-content/uploads/2016/06/Bigstock-27341729-Happy-Child-Sitting-In-Lotus-Position-Over-Bllue-Sky-On-The-Top.-Happiness-And-Freedom-Concept.-300x200.jpg"
   }, {
-    "title": "Article3",
-    "content": "3Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "title": "Healthy Breakfast",
+    "paragraph1": "Roll your eyes if you like, but the old bromide about breakfast being the most important meal of the day is true (mostly). Breakfast eaters tend to have better diets overall, consuming more fruit, vegetables, milk, and whole grains than non-breakfast eaters.",
+    "paragraph2": "And because the time between dinner and the next morning’s meal is the longest your body goes without food, breakfast has an effect on you that’s different from any other meal. Eating within 2 hours of waking can make a difference in the way you metabolize glucose, or blood sugar, all day. Your glucose level rises every time you eat, and your pancreas produces insulin to shuttle the glucose into your cells, where it’s used for energy. Research is finding that keeping glucose and insulin in the right balance has important effects on metabolism and health.",
     "image": "http://cdn1.tmbi.com/TOH/Images/Photos/37/300x300/exps164812_TH2847293C12_18_4b_WEB.jpg"
   }],
  "rituals":

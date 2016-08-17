@@ -4,9 +4,9 @@ export default Ember.Route.extend({
   model(params) {
     return this.store.findRecord('article', params.article_id);
   },
-  actions: {
-    debug(){
-      debugger;
-    }
-  }
 });
+// actions: {
+//   debug(){
+//     debugger;
+//   }
+// }
