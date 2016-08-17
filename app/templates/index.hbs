@@ -10,15 +10,14 @@
 <ul>
   {{#each model as |article|}}
     <li>
-      {{#link-to 'article' article.id}}<img src={{article.image}}>{{/link-to}}
+      {{#link-to 'article' article.id}}<img src={{article.image}} class="img-circle border">{{/link-to}}
       <h2>{{article.title}}</h2>
       <br>
     </li>
   {{/each}}
 </ul>
 
-{{#link-to 'article'}}Article{{/link-to}}
-
+{{#link-to 'morning-rituals'}}Morning Rituals{{/link-to}}
 {{#link-to 'about'}}About{{/link-to}}
 
 {{outlet}}

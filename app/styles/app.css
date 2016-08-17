@@ -7,6 +7,14 @@ ul {
    list-style-type: none;
 }
 
+.border {
+  width:300px;
+  height:280px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 0px 10px lightblue;
+  border-radius: 50%;
+}
+
 #ritual-tile {
 
 }
