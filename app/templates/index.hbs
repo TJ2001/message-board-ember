@@ -1,5 +1,21 @@
 <h1>Home</h1>
 
+<!-- <ul>
+  {{#each model as |ritual|}}
+    <li>
+      <img src={{ritual.img}}>
+      <br>This {{ritual.activity}} takes {{ritual.duration}} minutes and is best done at {{ritual.bestTime}} in your day.<br>Here are some notes: {{ritual.notes}}</li>
+  {{/each}}
+</ul> -->
+<ul>
+  {{#each model as |article|}}
+    <li>
+      {{#link-to 'article' article.id}}<img src={{article.image}}>{{/link-to}}
+      <br>This {{article.title}} about {{article.content}}.
+    </li>
+  {{/each}}
+</ul>
+
 {{#link-to 'article'}}Article{{/link-to}}
 
 {{#link-to 'about'}}About{{/link-to}}

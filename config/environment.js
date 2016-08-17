@@ -12,6 +12,12 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    firebase:{
+      apiKey: "AIzaSyC1rPj_g3N3h_lFqUkwnGnnlbRrsWrr0J0",
+      authDomain: "good-rituals.firebaseapp.com",
+      databaseURL: "https://good-rituals.firebaseio.com",
+      storageBucket: "good-rituals.appspot.com",
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
