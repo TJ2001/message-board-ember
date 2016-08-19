@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   updateRentalForm: false,
   actions: {
-    askQuestionFormShow() {
+    answerQuestionShow() {
       this.set('answerQuestion', true);
     },
 
@@ -11,7 +11,7 @@ export default Ember.Component.extend({
       var params = {
         screenName: this.get('screenName'),
         avatar: this.get('avatar'),
-        solution: this.get('query'),
+        solution: this.get('solution'),
       };
       this.set('answerQuestion', false);
       this.sendAction('saveAnswer', params);
