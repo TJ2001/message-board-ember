@@ -3,7 +3,7 @@
   <h1> Welcome to Guu Questions </h1>
 
   <p>We'll help you find the answers.</p>
-  {{#each model as |question|}}
+  {{#each model.question as |question|}}
     <div class="row">
        <h4>{{question.screenName}}</h4>
        <img class="avatar" src={{question.avatar}}>
