@@ -1,0 +1,10 @@
+<h1> Welcome to Guu Questions </h1>
+
+We'll help you find the answers.
+
+<ul>
+  {{#each model as |question|}}
+     <h4>{{question.screenName}}</h4>
+     <h3 class="hotlink">{{question.query}}</h3>
+  {{/each}}
+</ul>

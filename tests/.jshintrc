@@ -2,13 +2,33 @@
   "predef": [
     "document",
     "window",
-    "-Promise"
+    "location",
+    "setTimeout",
+    "$",
+    "-Promise",
+    "define",
+    "console",
+    "visit",
+    "exists",
+    "fillIn",
+    "click",
+    "keyEvent",
+    "triggerEvent",
+    "find",
+    "findWithAssert",
+    "wait",
+    "DS",
+    "andThen",
+    "currentURL",
+    "currentPath",
+    "currentRouteName"
   ],
-  "browser": true,
+  "node": false,
+  "browser": false,
   "boss": true,
   "curly": true,
   "debug": false,
-  "devel": true,
+  "devel": false,
   "eqeqeq": true,
   "evil": true,
   "forin": false,
@@ -27,10 +47,6 @@
   "strict": false,
   "white": false,
   "eqnull": true,
-<<<<<<< HEAD
   "esversion": 6,
-=======
-  "esnext": true,
->>>>>>> 9005eb36c5b4b06c8450f944f142fbf2c105ab6d
   "unused": true
 }
