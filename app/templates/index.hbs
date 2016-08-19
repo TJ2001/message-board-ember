@@ -12,5 +12,11 @@
   {{/each}}
   <br>
   {{ ask-question saveQuestion="saveQuestion2" }}
-
+{{#link-to 'answer'}}answer{{/link-to}}
 </div>
+
+<ul>
+  {{#each model.answer as |answer|}}
+     {{answer-tile answer=answer}}
+  {{/each}}
+</ul>

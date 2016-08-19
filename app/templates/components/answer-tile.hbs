@@ -1,0 +1,7 @@
+<li>{{#link-to 'answer' answer.id}}{{answer.screenName}}'s {{answer.question}} in {{answer.question.name}} {{/link-to}}
+  {{#if isImageShowing }}
+    <p><img src={{answer.avatar}} {{action 'imageHide'}} ></p>
+  {{else}}
+    <button {{action 'imageShow'}} >Show image</button>
+  {{/if}}
+</li>

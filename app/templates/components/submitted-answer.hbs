@@ -1,1 +1,22 @@
-{{yield}}
+<h3>something</h3>
+<p>{{question.screenName}}dsaf</p>
+<h1>{{answer.question.screenName}}{{model.question.screenName}}{{answer.screenName}}</h1>
+
+
+<ul>
+  {{#each question.answers as |answer|}}
+    <li>{{#link-to 'answer' answer.id}}{{answer.screenName}}'s {{answer.solution}}{{/link-to}}</li>
+  {{/each}}
+</ul>
+
+{{question.screenName}}'s Details <br><br>
+
+Country: {{question.query}} <br><br>
+
+Rentals available in {{question.content}}: <br><br>
+
+<ul>
+  {{#each question.answer as |answer|}}
+    <li>{{#link-to 'answer' answer.id}}{{answer.owner}}'s {{answer.type}}{{/link-to}}</li>
+  {{/each}}
+</ul>
